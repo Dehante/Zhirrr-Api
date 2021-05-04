@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-
-	<html>
+<html>
 
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title> Dehan Api's </title> 
 <meta property="og:image" content="https://i.ibb.co/FqR7QQV/logo2.jpg" /> 
 <meta property="og:title" content="Dehan API's" /> <meta property="og:description" content="Ampun stah masih pemula"/> 
@@ -27,11 +28,10 @@
 <div class="star star5"></div>
 
 <div class="error">
-  <div class="error__title">404</div>
-  <div class="error__subtitle">Hmmm...</div>
-  <div class="error__description">It looks like one of the  developers fell asleep</div>
-  <button class="error__button error__button--active">LOGIN</button>
-  <button class="error__button">CONTACT</button>
+  <div class="error__title">Error 404</div>
+  <div class="error__subtitle">Hmmmm...</div>
+  <div class="error__description">Sepertinya error / url tersebut tidak terdapat di Dehan - Api's</div>
+  <button class="error__button error__button--active"><a href="https://dhn-api.herokuapp.com/api">BACK TO HOME</a></button>
 </div>
 
 <div class="astronaut">
@@ -70,6 +70,14 @@ body {
     width: 100%;
     margin: 0px;
     background: linear-gradient(90deg, #2f3640 23%, #181b20 100%);
+}
+
+a {
+  transition: all 0.3s ease;
+}
+a:focus,
+a:hover {
+  text-decoration: none;
 }
 
 .moon {
