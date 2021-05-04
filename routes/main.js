@@ -11,8 +11,8 @@ router.get('/akun', (req, res) => {
     res.sendFile(__path + '/views/accounts.html')
 })
 
-router.get('/api/about', (req, res) => {
-    res.sendFile(__path + '/views/about.html')
+router.get('/eror', (req, res) => {
+    res.sendFile(__path + '/views/eror.html')
 })
 
 router.get('/api/news', (req, res) => {
