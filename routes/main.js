@@ -7,8 +7,8 @@ router.get('/', (req, res) => {
     res.sendFile(__path + '/views/index.html')
 })
 
-router.get('/api', (req, res) => {
-    res.sendFile(__path + '/views/index.html')
+router.get('/akun', (req, res) => {
+    res.sendFile(__path + '/views/accounts.html')
 })
 
 router.get('/api/about', (req, res) => {
