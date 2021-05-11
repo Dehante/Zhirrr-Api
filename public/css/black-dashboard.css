@@ -226,7 +226,7 @@ samp {
 	font-family: "Poppins", sans-serif;
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: #FF0000;
-	-webkit-animation: animatedBackground_c 2s infinite alternate;
+	-webkit-animation: animatedBackground_c 0.6s ease;
 }
 
 @keyframes animatedBackground_c {
