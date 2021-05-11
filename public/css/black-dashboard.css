@@ -17722,10 +17722,10 @@ table.tablesorter thead tr .headerSortDown {
 .sidebar[data="dark"],
 .off-canvas-sidebar[data="dark"] {
   background: #1e1e2f;
-  background: -webkit-linear-gradient(0deg, #1e1e2f 0%, #1e1e2f 100%);
-  background: -o-linear-gradient(0deg, #1e1e2f 0%, #1e1e2f 100%);
-  background: -moz-linear-gradient(0deg, #1e1e2f 0%, #1e1e2f 100%);
-  background: linear-gradient(0deg, #1e1e2f 0%, #1e1e2f 100%);
+  background: -webkit-linear-gradient(0deg, #1e1e2f 0%, #344675 100%);
+  background: -o-linear-gradient(0deg, #1e1e2f 0%, #344675 100%);
+  background: -moz-linear-gradient(0deg, #1e1e2f 0%, #344675 100%);
+  background: linear-gradient(0deg, #1e1e2f 0%, #344675 100%);
 }
 
 
@@ -17833,7 +17833,7 @@ table.tablesorter thead tr .headerSortDown {
 }
 
 .main-panel[data="dark"] {
-  border-top: 2px solid #1e1e2f;
+  border-top: 2px solid #344675;
 }
 
 .main-panel[data="primary"] {
