@@ -17721,11 +17721,11 @@ table.tablesorter thead tr .headerSortDown {
 
 .sidebar[data="dark"],
 .off-canvas-sidebar[data="dark"] {
-  background: #263148;
-  background: -webkit-linear-gradient(0deg, #263148 0%, #344675 100%);
-  background: -o-linear-gradient(0deg, #263148 0%, #344675 100%);
-  background: -moz-linear-gradient(0deg, #263148 0%, #344675 100%);
-  background: linear-gradient(0deg, #263148 0%, #344675 100%);
+  background: #344675;
+  background: -webkit-linear-gradient(0deg, #344675 0%, #344675 100%);
+  background: -o-linear-gradient(0deg, #344675 0%, #344675 100%);
+  background: -moz-linear-gradient(0deg, #344675 0%, #344675 100%);
+  background: linear-gradient(0deg, #344675 0%, #344675 100%);
 }
 
 
