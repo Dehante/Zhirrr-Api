@@ -217,7 +217,7 @@ samp {
   font-size: 1em;
 }
 
-.animated {
+.chromatic {
 	background: #fff;
 	color: #F00;
 	-webkit-text-fill-color: transparent;
@@ -241,6 +241,14 @@ samp {
 	80% {-webkit-text-stroke-color: #e800ff}
 	90% {-webkit-text-stroke-color: #ff008b}
 	100% {-webkit-text-stroke-color: #4169e1}
+}
+
+.rainbow-text {
+  font-size: 0.875rem;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 pre {
