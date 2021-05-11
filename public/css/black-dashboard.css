@@ -17721,12 +17721,12 @@ table.tablesorter thead tr .headerSortDown {
 
 .sidebar[data="dark"],
 .off-canvas-sidebar[data="dark"] {
-  color: #525f7f;
-  background: #1e1e2f;
-  background: -webkit-linear-gradient(50deg, #1e1e2f , #525f7f );
-  background: -o-linear-gradient(50deg, #1e1e2f , #525f7f );
-  background: -moz-linear-gradient(50deg, #1e1e2f , #525f7f );
-  background: linear-gradient(50deg, #1e1e2f , #525f7f );
+  color: #212529;
+  background: #212529;
+  background: -webkit-linear-gradient(50deg, #212529 , #212529 );
+  background: -o-linear-gradient(50deg, #212529 , #212529 );
+  background: -moz-linear-gradient(50deg, #212529 , #212529 );
+  background: linear-gradient(50deg, #212529 , #212529 );
 }
 
 
@@ -17834,7 +17834,7 @@ table.tablesorter thead tr .headerSortDown {
 }
 
 .main-panel[data="dark"] {
-  border-top: 2px solid #344675;
+  border-top: 2px solid #212529;
 }
 
 .main-panel[data="primary"] {
