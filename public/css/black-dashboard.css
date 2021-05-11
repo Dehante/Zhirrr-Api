@@ -17773,12 +17773,12 @@ table.tablesorter thead tr .headerSortDown {
 
 .sidebar[data="dark"],
 .off-canvas-sidebar[data="dark"] {
-  color: #212529;
-  background: #212529;
-  background: -webkit-linear-gradient(50deg, #212529 , #212529 );
-  background: -o-linear-gradient(50deg, #212529 , #212529 );
-  background: -moz-linear-gradient(50deg, #212529 , #212529 );
-  background: linear-gradient(50deg, #212529 , #212529 );
+  color: transparent;
+  background: transparent;
+  background: -webkit-linear-gradient(100deg, transparent , transparent );
+  background: -o-linear-gradient(100deg, transparent , transparent );
+  background: -moz-linear-gradient(100deg, transparent , transparent );
+  background: linear-gradient(100deg, transparent , transparent );
 }
 
 
@@ -17886,7 +17886,7 @@ table.tablesorter thead tr .headerSortDown {
 }
 
 .main-panel[data="dark"] {
-  border-top: 2px solid #212529;
+  border-top: 2px solid transparent;
 }
 
 .main-panel[data="primary"] {
