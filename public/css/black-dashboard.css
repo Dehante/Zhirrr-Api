@@ -243,13 +243,30 @@ samp {
 	100% {-webkit-text-stroke-color: #4169e1}
 }
 
-.rainbow-text {
+/*.rainbow-text {
   font-size: 0.875rem;
   font-family: "Poppins", sans-serif;
   background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: 1s linear infinite;
+}*/
+
+.rainbow-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  background-image: 
+    linear-gradient(to left, red,orange,yellow,green,blue,indigo,violet); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: move 200s linear infinite;
+}
+
+@keyframes move {
+  to {
+    background-position: 4600vh;
+  }
 }
 
 pre {
