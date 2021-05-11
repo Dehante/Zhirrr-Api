@@ -249,6 +249,7 @@ samp {
   background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: 1s linear infinite;
 }
 
 pre {
