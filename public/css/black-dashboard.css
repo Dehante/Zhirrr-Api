@@ -246,7 +246,7 @@ samp {
 .rainbow-text {
   font-size: 0.875rem;
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
