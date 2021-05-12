@@ -263,9 +263,20 @@ samp {
   animation: move 200s linear infinite;
 }
 
+.rainbow2-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  background-image: 
+  linear-gradient(to left, white,red,orange,yellow,green,blue,indigo,violet,black); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: move 225s linear infinite;
+}
+
 @keyframes move {
   to {
-    background-position: 4600vh;
+    background-position: 4800vh;
   }
 }
 
